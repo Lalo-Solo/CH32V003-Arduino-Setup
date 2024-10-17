@@ -53,7 +53,7 @@ If menus are not available as seen in the image, this means that the `core suppo
 The first program for hardware, equivalent to "Hello World" for software is the `blinking` sketch, however, while working with CH32 EVT boards, the code is a little different, particularly on what it refers to pin assignment.
 The following code should be enough to blink an LED, which, in the case of the Development Board, is already installed, and ready to be used, but as opposed to Arduino boards, it is not directly connected to any pin, so it must be manually connected.
 
-Just copy and paste into your Arduino IDE, or download the sketch (code) from this repository:
+Just copy and paste into your Arduino IDE, or download the Arduino sketch (`CH32V003_BlinkingLEDexample.ino`) from this repository:
 
 ```
 #define LED_PIN D13          // PD3, Pin 20
