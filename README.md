@@ -40,11 +40,11 @@ After the connections are done, the final connection is the LinkE to the compute
 In Arduino, there should be an indication to the IDE about the board being used.
 That is made from the menu "Tools" and following through menus as seen in the image.
 
-![Arduino Configuration](assets/Arduino%20Board%20Config.jpg)
+![Arduino Configuration](assets/Arduino-Board-Config.jpg)
 
 COM port might be different on each computer, since it's assigned by the operating system based on its own rules.
 
-![Arduino Serial Configuration](assets/Arduino%20Serial%20Configuration.jpg)
+![Arduino Serial Configuration](assets/Arduino-Serial-Configuration.jpg)
 
 If menus are not available as seen in the image, this means that the `core support` for CH32 EVT Boards is missing and must be installed first.
 
@@ -69,6 +69,11 @@ void loop() {
   delay(500);
 }
 ```
+
+Of course, some adjustment is needed to see the effect of the LED actually blinking, just add a wire to enable it on the development board.
+
+![Connecting the LED1 from Development Board](assets/CH32V-Wiring-Blinking-LED.jpg)
+
 
 # Download Links
 * **Arduino** IDE: https://www.arduino.cc/en/software
